@@ -17,6 +17,12 @@ public class User implements Serializable {
 	public User() {
 		
 	}
+	
+	public User(String id) {
+		super();
+		this.id = id;
+		
+	}
 
 	public User(String id, String name, String email) {
 		super();
