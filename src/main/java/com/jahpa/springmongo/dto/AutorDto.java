@@ -9,6 +9,10 @@ public class AutorDto implements Serializable {
 	private String id;	
 	private String name;
 	
+	public AutorDto() {
+		
+	}
+	
 	public AutorDto(User obj) {
 		this.id = obj.getId();
 		this.name = obj.getName();
